@@ -1,11 +1,11 @@
-# Sentiment Analysis on IMDB movie reviews 
+# Sentiment Analysis on IMDB movie reviews dataset (25000 rows) 
 
 To view the jupyter notebooks click on *notebooks* folder.
 It has 3 files.
 
-NLP- EDA and Data Cleaning.
+NLP- EDA and Data Cleaning(checking for class imbalance and null values, removing stopwords,urls,special characters, expanding contractions,etc ).
 
-NLP2 - Lemmatization and Word Tokenization (Preprocessing complete)
+NLP2 - Lemmatization and Word Tokenization(word tokenizer from nltk).
 Followed by vectorization using BOW and TF-IDF on unigrams, bigrams, and trigrams.
 Feature importance using Chi-Square.
 Training models like Logistic Regression, Random Forest, and Decision Tree on the features.
